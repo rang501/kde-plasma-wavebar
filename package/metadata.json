@@ -9,10 +9,10 @@
         ],
         "Category": "Multimedia",
         "Description": "Real-time audio spectrum visualizer for the Plasma panel",
-        "Icon": "audio-volume-high",
-        "Id": "org.kde.plasma.audiospectrum",
+        "Icon": "wavebar",
+        "Id": "org.kde.plasma.wavebar",
         "License": "MIT",
-        "Name": "Audio Spectrum",
+        "Name": "Wavebar",
         "Version": "1.0",
         "Website": ""
     },

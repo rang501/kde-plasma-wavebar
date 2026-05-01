@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audio spectrum daemon.
+"""Wavebar spectrum daemon.
 
 Captures audio from a PulseAudio/PipeWire monitor source via `parec`,
 computes an FFT, condenses the result into N logarithmic-frequency bars,

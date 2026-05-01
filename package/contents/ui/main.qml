@@ -150,10 +150,10 @@ PlasmoidItem {
             shell.commandFinished.disconnect(handler)
             const dir = String(stdout).trim() || "/tmp"
             root.runtimeDir = dir
-            root.dataPath = dir + "/plasma-audiospectrum.dat"
+            root.dataPath = dir + "/wavebar.dat"
             root.alivePath = root.dataPath + ".alive"
             root.portPath = root.dataPath + ".port"
-            root.logPath = dir + "/plasma-audiospectrum.log"
+            root.logPath = dir + "/wavebar.log"
             startDaemon()
         }
         shell.commandFinished.connect(handler)
@@ -327,6 +327,6 @@ PlasmoidItem {
         }
     }
 
-    toolTipMainText: i18n("Audio Spectrum")
+    toolTipMainText: i18n("Wavebar")
     toolTipSubText: root.device ? root.device : i18n("No device selected")
 }
