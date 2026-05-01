@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "mart.rang@adm.ee",
+                "Name": "Mart Rang"
+            }
+        ],
+        "Category": "Multimedia",
+        "Description": "Real-time audio spectrum visualizer for the Plasma panel",
+        "Icon": "audio-volume-high",
+        "Id": "org.kde.plasma.audiospectrum",
+        "License": "MIT",
+        "Name": "Audio Spectrum",
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
