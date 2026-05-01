@@ -3,7 +3,7 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "mart.rang@adm.ee",
+                "Email": "rang501@gmail.com",
                 "Name": "Mart Rang"
             }
         ],
@@ -13,7 +13,7 @@
         "Id": "org.kde.plasma.wavebar",
         "License": "MIT",
         "Name": "Wavebar",
-        "Version": "1.0",
+        "Version": "1.0.0",
         "Website": ""
     },
     "X-Plasma-API-Minimum-Version": "6.0"
